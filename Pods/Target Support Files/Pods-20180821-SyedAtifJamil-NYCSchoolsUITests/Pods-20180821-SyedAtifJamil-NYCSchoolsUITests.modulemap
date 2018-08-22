@@ -1,0 +1,6 @@
+framework module Pods_20180821_SyedAtifJamil_NYCSchoolsUITests {
+  umbrella header "Pods-20180821-SyedAtifJamil-NYCSchoolsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
