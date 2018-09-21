@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SchoolCell" rowHeight="96" id="qQ0-si-i2X" customClass="SchoolCell" customModule="NYCSchools" customModuleProvider="target">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SchoolCell" rowHeight="96" id="qQ0-si-i2X" customClass="SchoolCell" customModule="_0180821_SyedAtifJamil_NYCSchools" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qQ0-si-i2X" id="D0I-iR-tU6">
@@ -30,9 +30,22 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgk-13-hcq">
+                        <rect key="frame" x="0.0" y="0.0" width="10" height="95.5"/>
+                        <color key="backgroundColor" red="1" green="0.1046820747" blue="0.1196040401" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="jZD-7l-5Bi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="D5d-r7-Rcv" secondAttribute="trailing" constant="20" id="Hju-kQ-zF3"/>
+                    <constraint firstItem="cgk-13-hcq" firstAttribute="leading" secondItem="D0I-iR-tU6" secondAttribute="leading" id="Kwe-6g-VcR"/>
+                    <constraint firstAttribute="bottom" secondItem="cgk-13-hcq" secondAttribute="bottom" id="WEy-pl-IZT"/>
+                    <constraint firstItem="cgk-13-hcq" firstAttribute="top" secondItem="D0I-iR-tU6" secondAttribute="top" id="ahr-jq-azQ"/>
                     <constraint firstAttribute="bottom" secondItem="R7c-LX-FJg" secondAttribute="bottom" constant="10" id="g6Z-Rx-esH"/>
                     <constraint firstItem="R7c-LX-FJg" firstAttribute="top" secondItem="D5d-r7-Rcv" secondAttribute="bottom" constant="5" id="h2A-2a-l3m"/>
                     <constraint firstItem="D5d-r7-Rcv" firstAttribute="leading" secondItem="D0I-iR-tU6" secondAttribute="leading" constant="20" id="jUh-18-zAb"/>
@@ -44,7 +57,9 @@
             <connections>
                 <outlet property="nameLabel" destination="D5d-r7-Rcv" id="QIj-sQ-FRa"/>
                 <outlet property="overviewLabel" destination="R7c-LX-FJg" id="yts-rx-E9G"/>
+                <outlet property="scoreColor" destination="cgk-13-hcq" id="EuZ-Oc-FtH"/>
             </connections>
+            <point key="canvasLocation" x="33.5" y="54"/>
         </tableViewCell>
     </objects>
 </document>

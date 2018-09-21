@@ -34,14 +34,14 @@ class ListViewController: UIViewController {
         ApiManager.requestSchools { (schools, error) in
             guard let schools = schools, schools.count > 0, error == nil else {
                 NVActivityIndicatorPresenter.sharedInstance.stopAnimating(nil)
-                self.showError(error?.localizedDescription ?? "Oops! something wrong")
+                self.showError(error?.localizedDescription ?? ApiErrorMessages.generalError)
                 return
             }
 
             ApiManager.updateScores(schools: schools, { (schools, error) in
                 guard let schools = schools, schools.count > 0, error == nil else {
                     NVActivityIndicatorPresenter.sharedInstance.stopAnimating(nil)
-                    self.showError(error?.localizedDescription ?? "Oops! something wrong")
+                    self.showError(error?.localizedDescription ?? ApiErrorMessages.generalError)
                     return
                 }
                 
@@ -111,8 +111,9 @@ extension ListViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let controller = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController else { return }
+        guard let controller = storyboard?.instantiateViewController(withIdentifier: DetailViewController.controllerName) as? DetailViewController else { return }
         controller.school = data[indexPath.section].schools[indexPath.row]
+        tableView.deselectRow(at: indexPath, animated: true)
         navigationController?.pushViewController(controller, animated: true)
     }
     

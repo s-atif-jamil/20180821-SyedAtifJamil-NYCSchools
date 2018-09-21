@@ -10,6 +10,8 @@ import UIKit
 import MapKit
 
 class DetailViewController: UIViewController {
+
+    static let controllerName: String = "DetailViewController"
     
     @IBOutlet var mapView: MKMapView!
     @IBOutlet var nameLabel: UILabel!

@@ -31,7 +31,7 @@
         <!--NYC Schools-->
         <scene sceneID="UbT-hs-R2R">
             <objects>
-                <viewController id="uaA-90-Ofb" customClass="ListViewController" customModule="NYCSchools" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uaA-90-Ofb" customClass="ListViewController" customModule="_0180821_SyedAtifJamil_NYCSchools" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HUB-cZ-f8M">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +76,7 @@
         <!--Detail View Controller-->
         <scene sceneID="Pli-DX-9bk">
             <objects>
-                <viewController storyboardIdentifier="DetailViewController" id="Dc8-ha-qE4" customClass="DetailViewController" customModule="NYCSchools" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" id="Dc8-ha-qE4" customClass="DetailViewController" customModule="_0180821_SyedAtifJamil_NYCSchools" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XgZ-SP-IxZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

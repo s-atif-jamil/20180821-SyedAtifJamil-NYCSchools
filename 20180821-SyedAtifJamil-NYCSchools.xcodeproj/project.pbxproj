@@ -44,6 +44,9 @@
 		C000B554212DB923003A6632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000B532212DB923003A6632 /* AppDelegate.swift */; };
 		C000B555212DB923003A6632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000B532212DB923003A6632 /* AppDelegate.swift */; };
 		C000B556212DB923003A6632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000B532212DB923003A6632 /* AppDelegate.swift */; };
+		C0F92E3021402F350017F981 /* ApiErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F92E2F21402F350017F981 /* ApiErrorMessages.swift */; };
+		C0F92E3121402F350017F981 /* ApiErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F92E2F21402F350017F981 /* ApiErrorMessages.swift */; };
+		C0F92E3221402F350017F981 /* ApiErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F92E2F21402F350017F981 /* ApiErrorMessages.swift */; };
 		C31600CC559FD93AC3484652 /* Pods_20180821_SyedAtifJamil_NYCSchoolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0329ECED98F6C08BBBB02B15 /* Pods_20180821_SyedAtifJamil_NYCSchoolsUITests.framework */; };
 		D429E75121140EEE86B2DB23 /* Pods_20180821_SyedAtifJamil_NYCSchoolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B88355F8BF6C792A5E1B50 /* Pods_20180821_SyedAtifJamil_NYCSchoolsTests.framework */; };
 /* End PBXBuildFile section */
@@ -92,6 +95,7 @@
 		C000B52F212DB923003A6632 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C000B530212DB923003A6632 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C000B532212DB923003A6632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0F92E2F21402F350017F981 /* ApiErrorMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiErrorMessages.swift; sourceTree = "<group>"; };
 		C9CE1E5060DAF2EC2487F1B0 /* Pods-20180821-SyedAtifJamil-NYCSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20180821-SyedAtifJamil-NYCSchoolsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-20180821-SyedAtifJamil-NYCSchoolsTests/Pods-20180821-SyedAtifJamil-NYCSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
 		CBCF527CA31129AE6F65B1BE /* Pods_20180821_SyedAtifJamil_NYCSchools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20180821_SyedAtifJamil_NYCSchools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B88355F8BF6C792A5E1B50 /* Pods_20180821_SyedAtifJamil_NYCSchoolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20180821_SyedAtifJamil_NYCSchoolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -213,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				C000B52A212DB923003A6632 /* ApiManager.swift */,
+				C0F92E2F21402F350017F981 /* ApiErrorMessages.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -523,6 +528,7 @@
 				C000B554212DB923003A6632 /* AppDelegate.swift in Sources */,
 				C000B539212DB923003A6632 /* SchoolCell.swift in Sources */,
 				C000B548212DB923003A6632 /* Score.swift in Sources */,
+				C0F92E3021402F350017F981 /* ApiErrorMessages.swift in Sources */,
 				C000B54E212DB923003A6632 /* ListViewController.swift in Sources */,
 				C000B551212DB923003A6632 /* DetailViewController.swift in Sources */,
 			);
@@ -533,6 +539,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C000B552212DB923003A6632 /* DetailViewController.swift in Sources */,
+				C0F92E3121402F350017F981 /* ApiErrorMessages.swift in Sources */,
 				C000B54C212DB923003A6632 /* School.swift in Sources */,
 				C000B53A212DB923003A6632 /* SchoolCell.swift in Sources */,
 				C000B546212DB923003A6632 /* ApiManager.swift in Sources */,
@@ -549,6 +556,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C000B553212DB923003A6632 /* DetailViewController.swift in Sources */,
+				C0F92E3221402F350017F981 /* ApiErrorMessages.swift in Sources */,
 				C000B54D212DB923003A6632 /* School.swift in Sources */,
 				C000B53B212DB923003A6632 /* SchoolCell.swift in Sources */,
 				C000B547212DB923003A6632 /* ApiManager.swift in Sources */,
